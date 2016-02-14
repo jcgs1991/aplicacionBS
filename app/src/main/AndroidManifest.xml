@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.sunshine.android.example.cristian.proyectocurso">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bs"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PantallaPrincipal"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Informacion"
+            android:label="@string/title_activity_informacion"
+            android:parentActivityName=".PantallaPrincipal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.sunshine.android.example.cristian.proyectocurso.PantallaPrincipal" />
+        </activity>
+        <activity
+            android:name=".PantallaCategoria"
+            android:label="@string/title_activity_pantalla_categoria"
+            android:parentActivityName=".PantallaPrincipal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.sunshine.android.example.cristian.proyectocurso.PantallaPrincipal" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/action_settings"
+            android:theme="@style/SettingsTheme"
+            android:parentActivityName=".PantallaPrincipal"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.sunshine.android.example.cristian.proyectocurso.PantallaPrincipal" />
+        </activity>
+    </application>
+
+</manifest>

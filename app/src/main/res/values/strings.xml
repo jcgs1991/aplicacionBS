@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Baeza Shop</string>
+    <string name="action_settings">Ajustes</string>
+
+
+    <string-array name="Etiquetas">
+        <item>Moda</item>
+        <item>Electronica</item>
+        <item>Viajes</item>
+    </string-array>
+
+    <string name="drawer_close">Cerrar navigation drawer</string>
+    <string name="drawer_open">Abrir navigation drawer</string>
+
+
+    <string name="title_activity_informacion">Informacion</string>
+    <string name="title_activity_pantalla_categoria">PantallaCategoria</string>
+
+
+    <string name="nombre_prod"><u>Nombre producto: </u></string>
+    <string name="id"><u>ID: </u></string>
+    <string name="nom_amig"><u>Nombre amigable: </u></string>
+
+
+    <string name="Seleccion_opcion_1">Opcion 1 </string>
+
+    <string name="Seleccion_opcion_2">Opcion 2 </string>
+
+    <string name="Prueba_ajuste">Configuracion</string>
+
+    <string name="key_ajustes">Opcion</string>
+
+    <string-array name="Opciones">
+        <item>@string/Seleccion_opcion_1</item>
+        <item>@string/Seleccion_opcion_2</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <array name="array_categorias_a_subcategorias">
+        <item>@array/subcategorias_moda_y_accesorios</item>
+         <item>@array/subcategorias_perfumeria_y_cosmetica</item>
+         <item>@array/subcategorias_joyeria_y_relojes</item>
+    </array>
+
+    <string-array name="categorias">
+        <item>Moda y Accesorios</item>
+        <item>Perfumeria y Cosmetica</item>
+        <item>Joyeria y Relojes</item>
+    </string-array>
+
+    <string-array name="subcategorias_moda_y_accesorios">
+        <item>Mujer</item>
+        <item>Vestido de fiesta</item>
+        <item>Hombre</item>
+    </string-array>
+
+    <string-array name="subcategorias_perfumeria_y_cosmetica">
+        <item>Mujer</item>
+        <item>Hombre</item>
+    </string-array>
+
+    <string-array name="subcategorias_joyeria_y_relojes">
+        <item>Colgantes</item>
+        <item>Collares</item>
+        <item>Pendientes</item>
+    </string-array>
+
+
+
+</resources>

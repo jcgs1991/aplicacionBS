@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tv_provincia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!--
+        android:text="@string/provincia"
+-->
+    <Spinner
+        android:id="@+id/sp_provincia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/tv_localidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!--
+
+  esto es del spinner  android:prompt="@string/provincia_prompt"
+        android:text="@string/localidad"
+-->
+    <Spinner
+        android:id="@+id/sp_localidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showLocalidadSelected"/>
+    <!--
+    esto es del spinner android:prompt="@string/localidad_prompt"
+        android:text="@string/comprobar"
+-->
+</LinearLayout>
+
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:paddingBottom = "10px">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="20px">
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="Categoria"
+                android:id="@+id/button2"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="20px">
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="Subcategoria"
+                android:id="@+id/button"
+                android:contextClickable="true"
+                android:clickable="true"
+                android:enabled="true" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:paddingBottom = "10px">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="20px">
+            android:orientation="vertical">
+
+
+            <SearchView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:text="Busqueda"
+                android:id="@+id/searchView"
+                android:layout_column="1"
+                />
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:paddingBottom = "10px">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="20px">
+
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Busqueda"
+                android:id="@+id/button3"
+                android:layout_column="1" />
+        </LinearLayout>
+    </TableRow>
+
+
+</TableLayout>
+-->

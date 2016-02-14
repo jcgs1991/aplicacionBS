@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <PreferenceScreen
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ListPreference android:title="@string/Prueba_ajuste"
+            android:key="@string/key_ajustes"
+            android:defaultValue="@string/Seleccion_opcion_1"
+            android:entryValues="@array/Opciones"
+            android:entries="@array/Opciones" />
+
+
+    </PreferenceScreen>
